@@ -14,10 +14,12 @@
 	color: white;
 	padding: 0 1% 25% 1%;
 	margin-bottom: 0;
+	border: 1px solid darkgreen;
 }
 
 #jumboContainer{
 	text-align: center;
+
 }
 
 ul {
@@ -64,9 +66,10 @@ body {
   min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
-  margin: 0 auto -60px;
+  margin: 0 auto -42px;
   /* Pad bottom by footer height */
-  padding: 0 0 60px;
+  padding: 0 0 42px;
+  background-color: black;
 }
 
 
@@ -76,13 +79,85 @@ body {
 }
 /* Set the fixed height of the footer here */
 #footer {
-  height: 60px;
-  background-color: blue;
+  height: 42px;
+  background-color: #94FF61;
+  border: 1px double white;
+  /*border-radius: 10px;*/
 }
 
+.projectDiv {
+	height: 49.9%;
+	width: 49.9%;
+	display: inline-block;
+	padding: 9%;
+	
+	margin: -4% -4%;
+	border-radius: 50%;
+}
 
-@media (max-width: 420px) {
+@media (max-width: 766px) {
+.container {
+	margin: auto 0;
+	height: 100%;
+}
+	.background {
+	background-image: url('https://www.dl.dropboxusercontent.com/s/4r9i0av549t7nyz/blueberries.JPG?dl=0');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	padding: 15% 0;
+	margin-bottom: 0;
+}
+}
 
+#hr {
+	margin-bottom: 10%;
+}
+
+.one {
+background-color: rgba(244, 165, 130, .3);
+}
+
+.two {
+background-color: rgba(114, 160, 215, .3);
+}
+
+.three {
+background-color: rgba(80, 161, 10, .3);
+}
+
+.four {
+background-color: rgba(235, 215, 10, .3);
+}
+
+.five {
+	background-color: rgba(109, 94, 221, .3);
+}
+
+.threez{
+	height: 49.9%;
+	width: 35%;
+	display: inline-block;
+	padding: 9%;
+	background-color: rgba(109, 94, 221, .3);
+	margin: -4% -4%;
+	border-radius: 50%;
+}
+
+.emptyCircle{
+	visibility: none;
+}
+
+.projectName {
+	font-weight: bold;
+	font-size: 1em;
+	color: white;
+}
+
+small {
+	color: black;
+	font-weight: bold;
 }
 
 @media (min-width: 767px) {

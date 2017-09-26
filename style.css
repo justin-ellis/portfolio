@@ -33,7 +33,7 @@ text-decoration: none;
 
 .glyphicon-menu-hamburger {
 	float: left;
-	font-size: 2em;
+	font-size: 2.5em;
 	color: #FC7B1B;
 }
 
@@ -95,6 +95,10 @@ body {
 	border-radius: 50%;
 }
 
+.projectDiv:hover {
+	background-image: url('https://www.dl.dropboxusercontent.com/s/4r9i0av549t7nyz/blueberries.JPG?dl=0');
+}
+
 @media (max-width: 766px) {
 .container {
 	margin: auto 0;
@@ -106,8 +110,9 @@ body {
 	background-position: center;
 	background-size: cover;
 	color: white;
-	padding: 15% 0;
+	padding: 20% 0;
 	margin-bottom: 0;
+	/*height: 100%;*/
 }
 }
 
@@ -119,20 +124,74 @@ body {
 background-color: rgba(244, 165, 130, .3);
 }
 
+.projectDiv:hover > .hoverDiv1 {
+	background-color: orange;
+	border-radius: 50%;
+
+}
+
+.projectDiv:hover > .hoverDiv2 {
+	background-color: gray;
+	border-radius: 50%;
+
+}
+.projectDiv:hover > .hoverDiv3 {
+	background-color: red;
+	border-radius: 50%;
+
+}
+.projectDiv:hover > .hoverDiv4 {
+	background-color: tan;
+	border-radius: 50%;
+
+}
+.projectDiv:hover > .hoverDiv5 {
+	background-color: teal;
+	border-radius: 50%;
+
+}
+
+/*.hoverDiv {
+	background-color: orange;
+	border-radius: 50%;
+	*//*width: 10em;*/
+/*}*/
+.one:hover {
+background-image: url('https://www.dl.dropboxusercontent.com/s/jrz3m7vvrx8q0g4/castle_guard.png?dl=0');
+background-size:cover;
+
+}
+
 .two {
 background-color: rgba(114, 160, 215, .3);
+}
+
+.two:hover{
+background-image: url('https://www.dl.dropboxusercontent.com/s/fjczgndpc6ef14j/petfindr.png?dl=0');
 }
 
 .three {
 background-color: rgba(80, 161, 10, .3);
 }
+.three:hover{
+background-image: url('https://www.dl.dropboxusercontent.com/s/2kzy1yc9zvr9f83/yoga_bloom.png?dl=0');
+
+}
+
 
 .four {
 background-color: rgba(235, 215, 10, .3);
 }
+.four:hover{
+background-image: url('https://www.dl.dropboxusercontent.com/s/8au14juqjzgoil5/curated_learning.png?dl=0');
+}
+
 
 .five {
 	background-color: rgba(109, 94, 221, .3);
+}
+.five:hover{
+background-image: url('https://www.dl.dropboxusercontent.com/s/rzjkdb0j8x3qfyw/musicians_forum.png?dl=0');
 }
 
 .threez{
@@ -174,4 +233,51 @@ small {
 	padding: 0 1% 25% 1%;
 	margin-bottom: 0;
 }
+}
+
+.fa {
+	/*margin-bottom: 5px;*/
+	margin-top: 4px;
+    /*padding: 20px;*/
+    font-size: 2.5em;
+    /*width: 55px;*/margin: 4px 5px 0 5px;
+    text-align: center;
+    text-decoration: none;
+    /*border-radius: 50%;*/
+}
+
+.fa-github {
+/*background: black;*/
+color: white;
+}
+
+.fa:hover {
+    opacity: 0.8;
+    
+}
+
+.fa-linkedin {
+	/*background-color: white;*/
+	padding: 0px 8px;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+    
+    color: white;
+}
+
+
+.fa-file-text {
+	color: white;
+	font-size: 2em;
+}
+
+.fa-twitter {
+   
+    color: #55ACEE;
+}
+
+.center {
+	text-align: center;
 }

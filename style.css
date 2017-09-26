@@ -281,3 +281,49 @@ color: white;
 .center {
 	text-align: center;
 }
+
+#modal1divcontainer{
+	position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		display: none;
+}
+
+#modal1div {
+		background-color: #060B11;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px; 
+    border: 1px solid azure;
+    width:70%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    color: white;
+    display: none;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+
+@media (max-width: 1480px) {
+	#wrap {
+		min-height: 100%;	
+	}
+	.background {
+	background-image: url('https://www.dl.dropboxusercontent.com/s/4r9i0av549t7nyz/blueberries.JPG?dl=0');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	padding: 0 1% 60% 1%;
+	margin-bottom: 0;
+} 
+}
+
+#modal1button {
+	margin-top: 20px;
+}

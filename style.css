@@ -148,31 +148,39 @@ background-color: rgba(244, 165, 130, .3);
 
 .projectDiv:hover > .hoverDiv1 {
 	background-color: orange;
-	border-radius: 50%;
-	padding: 2%;
+	border-radius: 10px;
+	  border: 1px double white;
+
 
 }
 
 .projectDiv:hover > .hoverDiv2 {
 	background-color: gray;
-	border-radius: 50%;
-	padding: 2%;
+	border-radius: 10px;
+	  border: 1px double darkgrey;
+
 
 }
 .projectDiv:hover > .hoverDiv3 {
 	background-color: red;
-	border-radius: 50%;
-	padding: 2%;
+	border-radius: 10px;
+	  border: 1px double darkgrey;
+
+
 }
 .projectDiv:hover > .hoverDiv4 {
 	background-color: tan;
-	border-radius: 50%;
-	padding: 2%;
+	border-radius: 10px;
+	  border: 1px double darkgrey;
+
+
 }
 .projectDiv:hover > .hoverDiv5 {
 	background-color: teal;
-	border-radius: 50%;
-	padding: 2%;
+	border-radius: 10px;
+	  border: 1px double darkgrey;
+
+
 }
 
 /*.hoverDiv {
@@ -360,5 +368,49 @@ text-align: center;
 
 .center {
 	text-align: center;
+}
 
+@media (max-width: 767px) {
+	#wrap {
+		min-height: 90%;
+	}
+		.background {
+	background-image: url('https://www.dl.dropboxusercontent.com/s/4r9i0av549t7nyz/blueberries.JPG?dl=0');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	padding: 0 1% 95% 1%;
+	margin-bottom: 0;
+} 
+}
+
+@media (max-width: 960px) {
+	#wrap {
+		min-height: 100%;
+	}
+		.background {
+	background-image: url('https://www.dl.dropboxusercontent.com/s/4r9i0av549t7nyz/blueberries.JPG?dl=0');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	padding: 0 1% 95% 1%;
+	margin-bottom: 0;
+} 
+}
+
+@media (max-width: 560px) {
+	#wrap {
+		min-height: 100%;
+	}
+		.background {
+	background-image: url('https://www.dl.dropboxusercontent.com/s/4r9i0av549t7nyz/blueberries.JPG?dl=0');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	padding: 0 1% 166% 1%;
+	margin-bottom: 0;
+} 
 }

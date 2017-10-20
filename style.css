@@ -114,7 +114,7 @@ body {
 	padding: 9%;
 	
 	margin: -5% -5%;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 }
 
 .projectDiv:hover {
@@ -233,7 +233,7 @@ background-image: url('https://www.dl.dropboxusercontent.com/s/rzjkdb0j8x3qfyw/m
 	padding: 9%;
 	background-color: rgba(109, 94, 221, .3);
 	margin: -4% -4%;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 }
 
 .emptyCircle{
